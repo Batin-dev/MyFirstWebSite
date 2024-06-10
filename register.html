@@ -24,10 +24,11 @@
         padding-bottom: 30px;
         padding-top: 30px;
     }
+
     h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 50px;
-        
+
     }
 
     input[type="text"] {
@@ -39,7 +40,33 @@
         border: 2px white;
         padding-left: 10px;
         color: black;
-        
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    input[type="password"] {
+        font-size: 18px;
+        background-color: white;
+        width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        padding-left: 10px;
+        border: 2px white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    button {
+        border: 2px solid white;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 8px;
+        color: black;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    button:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 </style>
 
@@ -56,6 +83,10 @@
         <p>
             <input type="password" placeholder="Password">
         </p>
+        <p>
+            <button>Sign up</button>
+        </p>
+        <p>Do you have account? <a href="">Login</a></p>
     </div>
 </body>
 
